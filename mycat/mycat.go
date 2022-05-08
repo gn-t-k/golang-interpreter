@@ -7,7 +7,8 @@ import (
 	"os"
 )
 
-var line = flag.Bool("n", false, "print line number")
+var isNumbered = flag.Bool("n", false, "print line number")
+var lineNumber = 1
 
 func main() {
 	flag.Parse()
